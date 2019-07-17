@@ -1,3 +1,3 @@
 # Pull base image 
 From tomcat:7
-COPY target/*.war /usr/local/tomcat/webapps/
+COPY /home/jenkinsadmin/workspace/pipejob/webapp/target/webapp.war /usr/local/tomcat/webapps/
